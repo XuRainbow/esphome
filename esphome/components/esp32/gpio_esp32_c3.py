@@ -5,8 +5,6 @@ from esphome.const import CONF_INPUT, CONF_MODE, CONF_NUMBER
 from esphome.pins import check_strapping_pin
 
 _ESP32C3_SPI_PSRAM_PINS = {
-    12: "SPIHD",
-    13: "SPIWP",
     14: "SPICS0",
     15: "SPICLK",
     16: "SPID",
